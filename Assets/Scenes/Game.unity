@@ -330,7 +330,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8783294718909024580, guid: 0a91b94574f87ce4289b95864bc62407, type: 3}
       propertyPath: Speed
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8783294718909024580, guid: 0a91b94574f87ce4289b95864bc62407, type: 3}
       propertyPath: Path.Array.size
@@ -364,6 +364,10 @@ PrefabInstance:
       propertyPath: Path.Array.data[6]
       value: 
       objectReference: {fileID: 1061776902}
+    - target: {fileID: 1442762939345337724, guid: 0a91b94574f87ce4289b95864bc62407, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5040643765344069697, guid: 0a91b94574f87ce4289b95864bc62407, type: 3}
       propertyPath: m_Name
       value: Ram
@@ -843,6 +847,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6231456007680750907, guid: b0b4393d57e56b049a9388885393c1b0, type: 3}
   m_PrefabInstance: {fileID: 88904912}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &821714565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5040643765344069697, guid: 0a91b94574f87ce4289b95864bc62407, type: 3}
+  m_PrefabInstance: {fileID: 176315752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &821714569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821714565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca1dbe1992054043ba8c127cd9ec34c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHitPoints: 5
+  CurrentHitPoints: 0
 --- !u!1001 &847115635
 PrefabInstance:
   m_ObjectHideFlags: 0
