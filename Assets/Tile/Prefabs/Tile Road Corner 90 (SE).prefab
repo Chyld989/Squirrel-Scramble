@@ -27,6 +27,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7473896242791389947, guid: 386836f34ff67ef48afd23ac38cb88de, type: 3}
+      propertyPath: IsPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7534642559786222532, guid: 386836f34ff67ef48afd23ac38cb88de, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -45,7 +49,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7534642559786222535, guid: 386836f34ff67ef48afd23ac38cb88de, type: 3}
       propertyPath: m_Name
-      value: Tile Road Corner 90
+      value: Tile Road Corner 90 (SE)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 386836f34ff67ef48afd23ac38cb88de, type: 3}

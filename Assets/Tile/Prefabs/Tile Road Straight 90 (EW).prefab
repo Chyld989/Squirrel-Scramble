@@ -25,7 +25,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2787232823421857386, guid: ac0ecd41b0a1a664bb00ab635269971e, type: 3}
       propertyPath: m_Name
-      value: Tile Road Straight 90
+      value: Tile Road Straight 90 (EW)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992304438295820118, guid: ac0ecd41b0a1a664bb00ab635269971e, type: 3}
+      propertyPath: IsPlaceable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4735071898106960446, guid: ac0ecd41b0a1a664bb00ab635269971e, type: 3}
       propertyPath: m_LocalRotation.w

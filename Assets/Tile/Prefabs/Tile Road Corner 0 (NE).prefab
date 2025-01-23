@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: -2432090755550338912, guid: 626410dc07212d749823da2540a223bb, type: 3}
     - target: {fileID: 6231456007680750904, guid: b0b4393d57e56b049a9388885393c1b0, type: 3}
       propertyPath: m_Name
-      value: Tile Road Corner
+      value: Tile Road Corner 0 (NE)
       objectReference: {fileID: 0}
     - target: {fileID: 6231456007680750907, guid: b0b4393d57e56b049a9388885393c1b0, type: 3}
       propertyPath: m_RootOrder
@@ -29,6 +29,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6231456007680750907, guid: b0b4393d57e56b049a9388885393c1b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436317099364510724, guid: b0b4393d57e56b049a9388885393c1b0, type: 3}
+      propertyPath: IsPlaceable
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
