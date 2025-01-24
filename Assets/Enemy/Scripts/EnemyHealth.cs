@@ -12,12 +12,6 @@ public class EnemyHealth : MonoBehaviour
 		CurrentHitPoints = MaxHitPoints;
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-
-	}
-
 	private void OnParticleCollision(GameObject other)
 	{
 		// TODO: Figure out why not registering as a hit if tower is too far from enemy
@@ -28,11 +22,9 @@ public class EnemyHealth : MonoBehaviour
 	private void ProcessHit()
 	{
 		CurrentHitPoints--;
-		Debug.Log(CurrentHitPoints);
 		if (CurrentHitPoints <= 0)
 		{
 			Destroy(gameObject);
-			Debug.Log("Dead");
 		}
 	}
 }
